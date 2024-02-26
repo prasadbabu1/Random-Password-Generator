@@ -1,0 +1,46 @@
+.main-container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    border: 6px;
+    border-style: dashed dotted;
+    border-color: violet goldenrod ;
+    border-radius: 20px;
+    padding: 50px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .password-area{
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+.main-div{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+
+.container button{
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    color:blue;
+    border-radius: 15px;
+   
+}
+
+.icon-div{
+    display: none;
+}
+
+
